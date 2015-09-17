@@ -55,7 +55,12 @@ a{
   text-align: center;
 }
 
-
+.content{
+	margin-top: 10px;
+}
+.content p {
+	margin-left: 20px;
+}
 
 /*======================== Navigation ================*/
 

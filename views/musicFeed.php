@@ -10,7 +10,7 @@ foreach ($results as $row) {
 
   echo "<div class=\"col col6\">";
   echo "<div id=\"" .$row['songId'] . "\" class=\"post\">";
-  echo "<p> <h3>Song Name: </h3><span>" . $row['songname']."</span></p>";
+  echo "<p> <h3>" . $row['songname']."</h3></p>";
 
 
   if($row['songFile']== 'static/songUploads/'){

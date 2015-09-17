@@ -16,7 +16,7 @@
 
 	  echo "<div class=\"col span_2_of_4\">";
 	  echo "<div id=\"" .$row['songId'] . "\" class=\"post\">";
-	  echo "<p> <h3>Song Name: </h3><span>" . $row['songname']."</span></p>";
+	  echo "<p> <h3>" . $row['songname']."</h3></p>";
 	  
 
 
