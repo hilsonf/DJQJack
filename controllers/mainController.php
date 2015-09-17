@@ -18,7 +18,6 @@ if(!empty($_GET["action"])){
 	if($_GET['action'] == "aDmInLoGIN"){
 	        $view->getView("../views/head.php");
 	        $view->getView("../views/loginForm.php");
-	        $view->getView("../views/footer.php");
 	}
 
     	# =-=-=-=-=-=-= Action to login=-=-=-=-=-=-=-=-=-=
@@ -38,7 +37,6 @@ if(!empty($_GET["action"])){
     	if ($_GET["action"] == "aDmINDasHBoard"){
 	        $view->getView("../views/head.php");
 	        $view->getView("../views/uploadForm.php");
-	        $view->getView("../views/footer.php");
 	}
 
 	# =-=-=-=-=-=-= Action to upload song =-=-=-=-=-=-=
@@ -104,6 +102,8 @@ else{
 
 	$view->getView("../views/head.php");
 	$view->getView("../views/nav.php");
+	$topMixes = $queries->mostDownloads();
+	$view->getView("../views/slider.php",$topMixes);
 	$songs= $crud->dateSort();
 	$view->getView("../views/musicFeed.php",$songs);
 	$view->getView("../views/footer.php");
