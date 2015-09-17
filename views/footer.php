@@ -13,6 +13,7 @@
   <div class="col span_1_of_4">
   <h4>Phone</h4>
     <p>(803) 979-7869</p>
+    <p>(803) 386-4160</p>
   </div>
   <div class="col span_1_of_4">
   <h4>Venues</h4>
@@ -21,7 +22,7 @@
   <div class="col span_1_of_4">
   <h4>Social Media</h4>
     <p>
-      <a href="" target="_blank">
+      <a href="https://www.facebook.com/DjQjack" target="_blank">
       <svg viewBox="9.108 18 24.21 24.211" enable-background="new 9.108 18 24.21 24.211">
 	  	<g>
 		<g>
@@ -34,7 +35,7 @@
 	  </svg>
       </a>
 
-      <a href="" target="_blank">
+      <a href="https://twitter.com/dj_qjack" target="_blank">
       <svg viewBox="12 12.719 24.211 24.21" enable-background="new 12 12.719 24.211 24.21">
 		<g>
 		<g>
@@ -52,7 +53,7 @@
 	  </svg>
       </a>
 
-      <a href="http://www.yelp.com/biz/jamaican-jerk-spot-winter-park" target="_blank">
+      <a href="https://instagram.com/dj_qjack/" target="_blank">
       <svg viewBox="0 0 60 60">
       	<g fill="none" fill-rule="evenodd" id="flat" stroke="none" stroke-width="1">
       	<g id="instagram">
