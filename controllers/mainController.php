@@ -19,7 +19,7 @@ if(!empty($_GET["action"])){
 	        $view->getView("../views/head.php");
 	        $view->getView("../views/nav.php");
 	        $view->getView("../views/loginForm.php");
-	        $view->getView("../views/footer.php");
+	        
 	}
 
     	# =-=-=-=-=-=-= Action to login=-=-=-=-=-=-=-=-=-=
@@ -29,7 +29,6 @@ if(!empty($_GET["action"])){
 
 	# =-=-=-=-=-=-= Action to logout =-=-=-=-=-=-=-=-=-=
 	if ($_GET["action"] == "logout"){
-
 		$view->getView("../views/head.php");
 		$view->getView("../views/footer.php");
 	}

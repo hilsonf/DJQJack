@@ -12,17 +12,22 @@
 		c-3.3,0-6-2.7-6-6V7c0-3.3,2.7-6,6-6l0,0c3.3,0,6,2.7,6,6v3C18,13.3,15.3,16,12,16z"/>
 		</svg>
 	</p>
- 	<p>
- 		<input type="text" name="username" placeholder="Username" required>
- 	</p>
- 	<p>
+
+	<p>
+		<input type="text" name="username" placeholder="Username" required class="input">
+	</p>
+	<p>
 	<svg id="Layer_1" 
 	width="24px" height="24px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
 	<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="5,8 7,10 11,6 "/>
 	</svg>
 	</p>
+
 	<p>
- 		<input type="password" name="password" placeholder="Password" required>
- 	</p>
--		<button id="loginbtn" type='submit'>Log In</button>
+		<input type="password" name="password" placeholder="Password" required class="input">
+	</p>
+ 
+		<button id="loginbtn" type='submit'>Log In</button>
+ 
+
 	</form>
