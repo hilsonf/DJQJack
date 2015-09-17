@@ -13,7 +13,7 @@
 		</svg>
 	</p>
 	<p>
-		<input type="text" name="username" placeholder="Username" required>
+		<input type="text" name="username" placeholder="Username" required class="input">
 	</p>
 	<p>
 	<svg id="Layer_1" 
@@ -23,7 +23,7 @@
 	</p>
 
 	<p>
-		<input type="password" name="password" placeholder="Password" required>
+		<input type="password" name="password" placeholder="Password" required class="input">
 	</p>
  
 		<button id="loginbtn" type='submit'>Log In</button>

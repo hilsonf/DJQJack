@@ -78,10 +78,10 @@ form{
 	color: #fff;
 }
 
-input:focus {
-  outline: none;
-  border: 2px solid red;
-  box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+input:focus { 
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
 }
 
 
