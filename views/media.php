@@ -26,7 +26,7 @@
 		else{
 			echo "<img class=\"cover\" src=\"coverUploads/". $row["songCover"] . "\" width=\"300\"/>";
 			// echo "<p><audio controls><source src=\"songUploads/" . $row['songFile'] . "\" type=\"audio/mpeg\">Your browser does not support audio</audio></p>";
-			echo "<p><a class=\"listen\">Listen</a></p>";
+			echo "<p><a class=\"listen\" href=\"/?action=mixtape&songId=" . $row['songId'] . "\">Listen</a></p>";
     		echo "<p><a id=\"download\" href=\"/?action=download&file=" . $row['songFile']. "&songId=" . $row['songId'] ."\">Download</a>" . " </p> <p clsss=\"downloadcount\"> <label>Total Downloads &nbsp;<span>". $row['downloadCount']."</span></p>";
 
 			
