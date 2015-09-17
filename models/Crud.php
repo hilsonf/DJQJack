@@ -180,5 +180,20 @@ class Crud
 
 	}// close downloadSong function
 
+	public function getMixtape($mixtapeId){
+		//connecting to DB
+		include("DBConnect.php");
+
+		$stmt = $dbh->prepare("SELECT * from music where songId in (:songid)");
+
+		$stmt->bindParam(':songid', $mixtapeId);
+		$stmt->execute();
+
+		//now put the result in a variable so we can play with them
+		$mixtape = $stmt->fetchall(PDO::FETCH_ASSOC);
+
+		return $mixtape;
+	}
+
 }
 ?>

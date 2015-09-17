@@ -25,3 +25,4 @@
 		<button type="submit" value="submit">Upload</button></p>
 	</p>
 </form>
+<a href="/">Logout</a>

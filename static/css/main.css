@@ -22,13 +22,22 @@ img{
 	height: auto;
 }
 
+form{
+	width: 90%;
+	margin: 4em auto;
+}
+
 a{
 	text-decoration: none;
 }
 
 #wrapper{
   margin: 0 auto;
+<<<<<<< HEAD
   background-color: rgba(0,0,0,.8);
+=======
+  background-color: rgba(0,0,0,.9);
+>>>>>>> paulddrix/master
   background-size: cover;
 }
 
@@ -61,6 +70,7 @@ form{
   text-align: center;
 }
 
+<<<<<<< HEAD
 /*======================== FORMS  ================*/
 
 #login{
@@ -84,7 +94,36 @@ input:focus {
     box-shadow: 0 0 10px #719ECE;
 }
 
+=======
+.content{
+	margin-top: 10px;
+}
+.content p {
+	margin-left: 20px;
+}
+/*======================== FORMS  ================*/
+>>>>>>> paulddrix/master
 
+#login{
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 200px;
+}
+#login input{
+	width: 50%;
+	height: 36px;
+	border-radius: 5px;
+	border: 1px solid #FFF;
+	text-align: center;
+	background: transparent;
+	color: #fff;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid red;
+  box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+}
 
 /*======================== Navigation ================*/
 
@@ -109,6 +148,19 @@ nav a{
 	font-size: 1.5em;
 	font-weight: 200;
 	padding: 1%;
+}
+#loginbtn{
+	display: inline-block;
+	min-width: 12%;
+	margin: 50px 10px 30px;
+	padding: 10px;
+	color: #FFF;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	border-radius: 3px;
+	text-transform: capitalize;
+	text-align: center;
+	transition: all 0.2s ease 0s;
 }
 
 nav a:hover{
