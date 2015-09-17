@@ -6,7 +6,7 @@
 <div class="section group">
   <div class="col span_1_of_4">
   <h4>Email</h4>
-     <p><a href="mailto:www.jcjerkspot.com/contact-us/" target="_top">@jerskpot.com</a>
+     <p><a href="mailto:djqjack@gmail.com" target="_top">djqjack@gmail.com</a>
      </p>
   </div>
 

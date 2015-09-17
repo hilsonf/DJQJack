@@ -55,8 +55,8 @@ if(!empty($_GET["action"])){
 		$crud->likeSong($songid);
 		$view->getView("../views/head.php");
 		$view->getView("../views/nav.php");
-		$songs= $crud->dateSort();
-        		$view->getView("../views/musicFeed.php",$songs);
+		$theMixtape = $crud->getMixtape($songid);
+		$view->getView("../views/mixtape.php",$theMixtape);
 		$view->getView("../views/footer.php");
 	}
 
@@ -72,12 +72,15 @@ if(!empty($_GET["action"])){
 		$view->getView("../views/footer.php");
 	}
 
-	#if ($_GET["action"] == "error"){
-		#$view->getView("views/header.php");
-		#$view->getView("views/loginForm.php");
-		#$view->getView("views/usError.php");
-		#$view->getView("views/footer.php");
-	#}
+	# =-=-=-=-=-=-= Route for a mixtape page =-=-=-=-=-=-=-=
+	if ($_GET["action"] == "mixtape"){
+		$view->getView("../views/head.php");
+		$view->getView("../views/nav.php");
+		$mixId = $_GET['songId'];
+		$theMixtape = $crud->getMixtape($mixId);
+		$view->getView("../views/mixtape.php",$theMixtape);
+		$view->getView("../views/footer.php");
+	}
 
 	# =-=-=-=-=-=-= Route for media page =-=-=-=-=-=-=-=
 	if ($_GET["action"] == "media"){
@@ -105,7 +108,4 @@ else{
 	$view->getView("../views/musicFeed.php",$songs);
 	$view->getView("../views/footer.php");
 }
-# =-=-=-=-=-=-= Shitface =-=-=-=-=-=-=-=-=-=
-
-
 ?>
