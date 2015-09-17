@@ -17,7 +17,9 @@ if(!empty($_GET["action"])){
 	# =-=-=-=-=-=-= Route for Admin log in page =-=-=-=
 	if($_GET['action'] == "aDmInLoGIN"){
 	        $view->getView("../views/head.php");
+	        $view->getView("../views/nav.php");
 	        $view->getView("../views/loginForm.php");
+	        $view->getView("../views/footer.php");
 	}
 
     	# =-=-=-=-=-=-= Action to login=-=-=-=-=-=-=-=-=-=
@@ -36,6 +38,7 @@ if(!empty($_GET["action"])){
 	# =-=-=-=-=-=-= Route for admin page =-=-=-=-=-=-=
     	if ($_GET["action"] == "aDmINDasHBoard"){
 	        $view->getView("../views/head.php");
+	        $view->getView("../views/nav.php");
 	        $view->getView("../views/uploadForm.php");
 	}
 
