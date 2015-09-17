@@ -8,7 +8,7 @@ class Queries {
         //connect to database
         include("DBConnect.php");
 
-        $stmt = $dbh->prepare("SELECT * from music order by created DESC");
+        $stmt = $dbh->prepare("SELECT * from music order by created DESC limit 3");
         $stmt->execute();
         //now put the result in a variable so we can play with them
 		$latestUpload = $stmt->fetchall(PDO::FETCH_ASSOC);
