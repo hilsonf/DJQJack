@@ -33,11 +33,8 @@ a{
 
 #wrapper{
   margin: 0 auto;
-<<<<<<< HEAD
   background-color: rgba(0,0,0,.8);
-=======
   background-color: rgba(0,0,0,.9);
->>>>>>> paulddrix/master
   background-size: cover;
 }
 
@@ -70,7 +67,7 @@ form{
   text-align: center;
 }
 
-<<<<<<< HEAD
+
 /*======================== FORMS  ================*/
 
 #login{
@@ -94,7 +91,23 @@ input:focus {
     box-shadow: 0 0 10px #719ECE;
 }
 
-=======
+#upload{
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 5%;
+}
+
+#upload input{
+	width: 49%;
+	height: 36px;
+	border-radius: 5px;
+	border: 1px solid #FFF;
+	text-align: center;
+	background: transparent;
+	color: #fff;
+	margin-right: 3%;
+}
+
 .content{
 	margin-top: 10px;
 }
@@ -102,7 +115,7 @@ input:focus {
 	margin-left: 20px;
 }
 /*======================== FORMS  ================*/
->>>>>>> paulddrix/master
+
 
 #login{
 	text-align: center;
@@ -119,10 +132,10 @@ input:focus {
 	color: #fff;
 }
 
-input:focus {
-  outline: none;
-  border: 2px solid red;
-  box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+input:focus { 
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 10px red;
 }
 
 /*======================== Navigation ================*/
@@ -148,19 +161,6 @@ nav a{
 	font-size: 1.5em;
 	font-weight: 200;
 	padding: 1%;
-}
-#loginbtn{
-	display: inline-block;
-	min-width: 12%;
-	margin: 50px 10px 30px;
-	padding: 10px;
-	color: #FFF;
-	background-color: transparent;
-	border: 2px solid #FFF;
-	border-radius: 3px;
-	text-transform: capitalize;
-	text-align: center;
-	transition: all 0.2s ease 0s;
 }
 
 nav a:hover{
@@ -232,6 +232,35 @@ h3 > span{
 	text-align: center;
 	transition: all 0.2s ease 0s;
 }
+
+#uploadbtn{
+	display: inline-block;
+	min-width: 12%;
+	margin: 50px 10px 30px;
+	padding: 10px;
+	color: #FFF;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	border-radius: 3px;
+	text-transform: capitalize;
+	text-align: center;
+	transition: all 0.2s ease 0s;
+}
+
+#logoutbtn{
+	display: inline-block;
+	min-width: 12%;
+	margin: 50px 10px 30px;
+	padding: 10px;
+	color: #FFF;
+	background-color: transparent;
+	border: 2px solid red;
+	border-radius: 3px;
+	text-transform: capitalize;
+	text-align: center;
+	transition: all 0.2s ease 0s;
+}
+
 
 .listen{
 	text-decoration: none;
@@ -349,6 +378,12 @@ footer p a{
 .span_1_of_2 {
   width: 47.2%;
   text-align: center;
+}
+.span_1_of_3 {
+  width: 32.2%;
+  text-align: center;
+  border-bottom: 2px solid #FFF;
+  padding-bottom: 3%;
 }
 
 /*========================= MEDIA QUERIES ================*/

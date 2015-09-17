@@ -18,10 +18,6 @@ if(!empty($_GET["action"])){
 	if($_GET['action'] == "aDmInLoGIN"){
 	        $view->getView("../views/head.php");
 	        $view->getView("../views/nav.php");
-<<<<<<< HEAD
-
-=======
->>>>>>> paulddrix/master
 	        $view->getView("../views/loginForm.php");
 	        
 	}
@@ -33,7 +29,6 @@ if(!empty($_GET["action"])){
 
 	# =-=-=-=-=-=-= Action to logout =-=-=-=-=-=-=-=-=-=
 	if ($_GET["action"] == "logout"){
-
 		$view->getView("../views/head.php");
 		$view->getView("../views/footer.php");
 	}
@@ -42,14 +37,8 @@ if(!empty($_GET["action"])){
 	# =-=-=-=-=-=-= Route for admin page =-=-=-=-=-=-=
     	if ($_GET["action"] == "aDmINDasHBoard"){
 	        $view->getView("../views/head.php");
-<<<<<<< HEAD
-	                $view->getView("../views/nav.php");
-	        $view->getView("../views/uploadForm.php");
-	        
-=======
 	        $view->getView("../views/nav.php");
 	        $view->getView("../views/uploadForm.php");
->>>>>>> paulddrix/master
 	}
 
 	# =-=-=-=-=-=-= Action to upload song =-=-=-=-=-=-=
