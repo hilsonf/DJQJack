@@ -44,7 +44,15 @@ a{
   margin: 0 auto;
   margin-bottom: 10%;
 }
-
+.content img{
+	float: right;
+	width:400px;
+	height: auto;
+}
+#bio{
+	float: left;
+	width: 600px;
+}
 form{
 	width: 90%;
 	margin: 4em auto;
@@ -114,33 +122,30 @@ input:focus {
 .content p {
 	margin-left: 20px;
 }
-/*======================== FORMS  ================*/
-
-
-#login{
-	text-align: center;
-	margin-bottom: 100px;
-	margin-top: 200px;
-}
-#login input{
-	width: 50%;
-	height: 36px;
-	border-radius: 5px;
-	border: 1px solid #FFF;
-	text-align: center;
-	background: transparent;
-	color: #fff;
-}
 
 input:focus { 
     outline: none !important;
     border: 1px solid red;
     box-shadow: 0 0 10px red;
 }
+/* =======================Upload form message ==========*/
 
+.error{
+	background-color: #C32E2E;
+	color: #EBEBEB;
+}
+.success{
+	background-color: #488E36;
+	color: #EBEBEB;
+}
+.message{
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	width: 100%;
+	height: 40px;
+}
 /*======================== Navigation ================*/
-
-
 nav{
 
 	width: 100%;
@@ -307,6 +312,7 @@ footer{
   	position: relative;
     left: 0;
     bottom: 0;
+    clear: both;
 /*    height: 100px;
 */  width: 100%;
 }
