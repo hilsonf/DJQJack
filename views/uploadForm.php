@@ -2,10 +2,10 @@
 
 
 	if ($results == 25 ) {
-		echo "error";
+		echo "<div class=\"message error\">There was an error uploading your file</div>";
 	}
 	else if($results == 95){
-		echo "success";
+		echo "<div class=\"message success\">The file was uploaded successfully</div>";
 	}
 
 ?>
