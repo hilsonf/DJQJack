@@ -2,7 +2,7 @@
 
 ?>
 <head>
-    <title></title>
+    <title>DJ QJACK</title>
     <meta charset="utf-8">
     <!--Font-->
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>

@@ -75,6 +75,13 @@ form{
   text-align: center;
 }
 
+.content{
+	margin-top: 10px;
+}
+.content p {
+	margin-left: 20px;
+}
+
 
 /*======================== FORMS  ================*/
 
@@ -116,12 +123,7 @@ input:focus {
 	margin-right: 3%;
 }
 
-.content{
-	margin-top: 10px;
-}
-.content p {
-	margin-left: 20px;
-}
+
 
 input:focus { 
     outline: none !important;
@@ -303,6 +305,18 @@ iframe{
 	width: 100%;
 	margin-top: 5%;
 }
+
+
+/*======================== Details Page ================*/
+
+.coverpic{
+	width: 50%;
+	margin-left: 3%;
+
+}
+
+
+
 
 /*======================== Footer ================*/
 
