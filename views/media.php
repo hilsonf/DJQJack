@@ -44,8 +44,19 @@
 	<h2>Videos</h2>
 	<div class="videoWrapper">
     <!-- Copy & Pasted from YouTube -->
-    <iframe width="560" height="349" src="https://www.facebook.com/DjQjack/videos/802621723145764/" frameborder="0" allowfullscreen></iframe>
-</div>
+
+	<div id="fb-root">
+	</div>
+	<script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div class="fb-video" data-allowfullscreen="1" data-href="/DjQjack/videos/vb.100001938321011/872063399534929/?type=1"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/DjQjack/videos/872063399534929/"><a href="https://www.facebook.com/DjQjack/videos/872063399534929/"></a>
+		<p>Coke Coca  off the Top not Written nor Rehearse. SC we next. Im working for my city and state what you doing. Kenzo Delorean Prynce Lyfe KD K CAMP 50 Cent No Limit Forever Records Big K.R.I.T. Mediatakeout Tyrese Gibson Street Jewlz  Renaldo &#039;dj puff&#039; Wilson  DJ B-Lord Ali Djali Williams Djnova Nova Vladimir Djlouivee Scott Carolina &#039;djTo&#039; Shejay Alicia Ferguson Amp Thomas Edward CrownEe Simpkins Ernest Latham Chris Ellison Eddie RnBsinga Goodwin Rob Portee Kierra Mitchell Full Sail University  Spike Bka Speedy</p>Posted by 
+		<a href="https://www.facebook.com/DjQjack">DjQjack SC</a> on Tuesday, May 26, 2015</blockquote></div></div>
+
+	<div class="fb-video" data-allowfullscreen="1" data-href="/DjQjack/videos/vb.100001938321011/756189261122344/?type=1"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/DjQjack/videos/756189261122344/"><a href="https://www.facebook.com/DjQjack/videos/756189261122344/">Movie on 11-2-14 at 6.47 AM</a><p>DJ Q Jack Prt 2 #R_U_Serious #Streetjewlz #GVT #MET  #SC #SC  #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC #SC</p>Posted by 
+		<a href="https://www.facebook.com/DjQjack">DjQjack SC</a> on Sunday, November 2, 2014</blockquote></div></div>
+	
+	</div>
 	</div>
 
 <div id="gallery"> 

@@ -58,6 +58,12 @@ form{
 	margin: 4em auto;
 }
 
+#logo{
+	position: absolute;
+	left: 15px;
+	top: 0px;
+}
+
 
 /*======================== Content Sections  ================*/
 
@@ -295,9 +301,9 @@ span{
 
 /*======================== Video ================*/
 
-iframe{
-  width: 80%;
-  height: 300px;
+.videowrapper{
+  margin-top: 15%;
+  width: 97%;
 }
 audio{
 	width: 100%;
