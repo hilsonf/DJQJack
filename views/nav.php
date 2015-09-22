@@ -1,6 +1,7 @@
 <?php
 
 ?>
+<!-- logo -->
 <nav>
 	<a href="/">
 <svg id="logo" 
