@@ -1,6 +1,6 @@
 <?php ?>
 <div class="content">
-	<h2>About Me</h2>
+	<h1>About Me</h1>
 	<img src="/images/img1.jpg" alt="DJQJACK" title="DJ Q Jack" />
 	<div id="bio">
 		<h3>My Story</h3>

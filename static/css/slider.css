@@ -102,11 +102,11 @@ a.mb-scrollButtons {
 }
 a.mb-scrollButtons.mb-left {
   background-position: left top;
-  left: -65px;
+  left: -50px;
 }
 a.mb-scrollButtons.mb-right {
   background-position: right top;
-  right: -65px;
+  right: -50px;
 }
 a.mb-scrollButtons.mb-left:hover {
   background-position: left bottom;
